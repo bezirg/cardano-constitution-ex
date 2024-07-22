@@ -3,8 +3,8 @@ module Cardano.Constitution.Validator.GoldenTests
     ( tests
     ) where
 
-import Cardano.Constitution.Config
-import Cardano.Constitution.Validator
+import Cardano.Constitution.Config.Default
+import Cardano.Constitution.Validator.Default
 import Cardano.Constitution.Validator.TestsCommon
 import Helpers.TestBuilders
 import PlutusCore.Evaluation.Machine.ExBudget

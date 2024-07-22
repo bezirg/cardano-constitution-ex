@@ -4,7 +4,7 @@ module Helpers.CekTests
     , hsAgreesWithTxBool
     ) where
 
-import Cardano.Constitution.Validator
+import Cardano.Constitution.Validator.Default
 import Cardano.Constitution.Validator.TestsCommon
 import PlutusLedgerApi.V3.ArbitraryContexts qualified as V3
 import PlutusTx as Tx

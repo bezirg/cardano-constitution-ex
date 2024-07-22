@@ -10,7 +10,7 @@ module Cardano.Constitution.Validator.UnitTests
   ) where
 
 import Cardano.Constitution.Config ()
-import Cardano.Constitution.Validator
+import Cardano.Constitution.Validator.Default
 import Cardano.Constitution.Validator.TestsCommon
 import Data.Map.Strict as M
 import Helpers.Guardrail qualified as Guards

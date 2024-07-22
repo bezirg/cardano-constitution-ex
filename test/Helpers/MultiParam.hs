@@ -21,7 +21,7 @@ module Helpers.MultiParam
   )
   where
 
-import Cardano.Constitution.Validator
+import Cardano.Constitution.Validator.Default
 import Cardano.Constitution.Validator.TestsCommon
 import Data.List (nub, sortOn)
 import PlutusLedgerApi.V3.ArbitraryContexts qualified as V3

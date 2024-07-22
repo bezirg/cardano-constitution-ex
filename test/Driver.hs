@@ -1,7 +1,6 @@
 -- editorconfig-checker-disable-file
 module Main where
 
-import Cardano.Constitution.Config.Tests qualified as ConfigTests
 import Cardano.Constitution.Validator.GoldenTests qualified as GoldenTests
 import Cardano.Constitution.Validator.PropTests qualified as PropTests
 import Cardano.Constitution.Validator.UnitTests qualified as UnitTests
@@ -37,7 +36,6 @@ main = do
   let mainTest = testGroup' "Testing Campaign" [
         UnitTests.unitTests,
         PropTests.tests,
-        ConfigTests.tests,
         GoldenTests.tests,
         UnitTests.singleParamTests,
         testGroup' "Multiple Parameter Changes"

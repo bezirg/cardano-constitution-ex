@@ -11,7 +11,7 @@
 module Helpers.TestBuilders where
 
 import Cardano.Constitution.Config.Types
-import Cardano.Constitution.Validator
+import Cardano.Constitution.Validator.Default
 import Cardano.Constitution.Validator.TestsCommon
 import Data.List (nub, sortOn)
 import PlutusLedgerApi.V3 qualified as V3

@@ -4,7 +4,7 @@ module Cardano.Constitution.Validator.PropTests
     ( tests
     ) where
 
-import Cardano.Constitution.Validator
+import Cardano.Constitution.Validator.Default
 import Cardano.Constitution.Validator.TestsCommon
 import Data.Map.Strict qualified as M
 import Helpers.TestBuilders
